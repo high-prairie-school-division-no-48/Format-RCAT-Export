@@ -1,6 +1,6 @@
 # Format-RCAT-Export
 
-This project aims to modify a raw RCAT export provided by Edubest to match the formatting required for the RCAT import function in Dossier.
+This project aims to modify a raw RCAT export provided by Edubest to match the formatting required by the RCAT import function in Dossier.
 
 Important: only screening test results are imported into Dossier
 
@@ -24,6 +24,6 @@ Important: only screening test results are imported into Dossier
    - Reorder the columns to match the order used by Dossier's import function
    - Convert the Date column to use _yyyy-mm-dd_ formating 
    - Group rows by _Student → Passage → Skill Category_ to collect total correct and total number of questions per skill category
-   - Calculate each skill category percentage as well as the overall percentage for the individual test
+   - Calculate each skill category percentage as well as the overall percentage for each individual test
 5. Output file will be generated in the same directory as the script
 
